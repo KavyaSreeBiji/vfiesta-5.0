@@ -413,6 +413,14 @@ nav {
 .timeline-time.cyan { color: var(--accent3); }
 .timeline-title { font-weight: 700; font-size: .95rem; margin-bottom: .2rem; }
 .timeline-note { font-size: .78rem; color: var(--muted); }
+.schedule-days {
+  display: grid; grid-template-columns: 1fr 1fr; gap: 3rem;
+  max-width: 900px; margin: 0 auto;
+}
+.day-label {
+  font-family: 'DM Mono', monospace; font-size: .75rem;
+  letter-spacing: .15em; text-transform: uppercase; margin-bottom: 1.5rem;
+}
 
 /* ─── SPONSORS ───────────────────────────── */
 #sponsors {
@@ -534,12 +542,3 @@ footer { background: var(--surface); border-top: 1px solid var(--border); paddin
   .schedule-days { grid-template-columns: 1fr; gap: 2rem; }
 }
 
-/* schedule grid */
-.schedule-days {
-  display: grid; grid-template-columns: 1fr 1fr; gap: 3rem;
-  max-width: 900px; margin: 0 auto;
-}
-.day-label {
-  font-family: 'DM Mono', monospace; font-size: .75rem;
-  letter-spacing: .15em; text-transform: uppercase; margin-bottom: 1.5rem;
-}
