@@ -17,12 +17,14 @@
 
 /* ─── RESET ──────────────────────────────── */
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-html { scroll-behavior: smooth; }
+html { scroll-behavior: smooth; overflow-x: hidden; width: 100%; max-width: 100%; }
 body {
   font-family: 'Syne', sans-serif;
   background: var(--bg);
   color: var(--text);
   overflow-x: hidden;
+  width: 100%;
+  max-width: 100%;
   cursor: none;
 }
 
@@ -161,7 +163,7 @@ nav {
 .hero-title {
   position: relative; z-index: 1;
   font-family: 'Bebas Neue', cursive;
-  font-size: clamp(4.5rem, 13vw, 11rem);
+  font-size: clamp(3rem, 13vw, 11rem);
   line-height: .92; letter-spacing: .02em;
   animation: fadeUp .8s .3s both;
   background: linear-gradient(90deg, #ff8a00, #e52e71);
@@ -326,7 +328,7 @@ nav {
 .events-header { max-width: 700px; margin: 0 auto 4rem; text-align: center; }
 .events-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 300px), 1fr));
   gap: 1.5rem; max-width: 1200px; margin: 0 auto;
 }
 .event-card {
@@ -529,6 +531,7 @@ footer { background: var(--surface); border-top: 1px solid var(--border); paddin
   .footer-bottom { flex-direction: column; text-align: center; }
   .countdown-card { padding: 1.4rem 1.6rem; min-width: 100px; }
   .countdown-num { font-size: 3rem; }
+  .schedule-days { grid-template-columns: 1fr; gap: 2rem; }
 }
 
 /* schedule grid */
