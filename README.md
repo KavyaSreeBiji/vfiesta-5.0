@@ -1,10 +1,10 @@
-# V-Fiesta 5.0 Demo🚀
+# V-Fiesta 5.0 Demo
 
 Welcome to the official repository for **V-Fiesta 5.0 Demo**! This project is a modern, responsive, and highly interactive single-page application (SPA) built to showcase the event's details, schedule, events, and registration.
 
 [**View Live Site**](https://vfiesta-5-0.vercel.app/)
 
-## ✨ Features
+##  Features
 
 - **Modern & Premium UI:** Built with sleek aesthetics, vibrant gradients, and glassmorphism elements.
 - **Dynamic Animations:** Features custom cursor tracking, scroll-reveal animations, and dynamic hover effects.
@@ -12,14 +12,14 @@ Welcome to the official repository for **V-Fiesta 5.0 Demo**! This project is a 
 - **Interactive Schedule Navigation:** A mobile-responsive vertical and horizontal event timeline across multiple days.
 - **Fully Responsive:** Carefully crafted native CSS media queries to ensure a flawless experience across all devices (mobile, tablet, and desktop).
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - **Framework:** [React 18](https://reactjs.org/)
 - **Build Tool:** [Vite](https://vitejs.dev/)
 - **Styling:** Vanilla CSS (`index.css`) with structured CSS variables for a consistent design system.
 - **Deployment:** [Vercel](https://vercel.com/)
 
-## 🚀 Getting Started
+##  Getting Started
 
 To run this project locally, follow these steps:
 
@@ -58,7 +58,7 @@ Once built, you can preview the production bundle locally over a static server:
 npm run preview
 ```
 
-## 📂 Project Structure
+##  Project Structure
 
 - `src/components/` - Contains all modular UI components (`Navbar.jsx`, `Hero.jsx`, `Schedule.jsx`, `About.jsx`, etc.)
 - `src/index.css` - Global stylesheet handling all custom aesthetics, layout, animations, and responsiveness.
